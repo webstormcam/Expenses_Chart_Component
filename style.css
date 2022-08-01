@@ -2,3 +2,38 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
 }
+
+body {
+    background-color: #F8E9DD;
+}
+
+#myBalanceSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EC755D;
+    margin: 0 auto;
+    width: 343px;
+    border-radius: 1em;
+    padding: 1em 1.5em;
+}
+
+h1 {
+    font-size: 13px;
+    margin-bottom: 0.5em;
+}
+
+.logo {
+    width: 45px;
+    height: 48px;
+}
+
+.top-words {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.balance {
+    font-size: 24px;
+    font-weight: bold;
+}
