@@ -3,6 +3,10 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+html {
+    font-size: .9rem;
+}
+
 body {
     background-color: #F8E9DD;
 }
@@ -19,7 +23,7 @@ body {
 }
 
 h1 {
-    font-size: 13px;
+    font-size: 0.8em;
     margin-bottom: 0.5em;
 }
 
@@ -34,6 +38,6 @@ h1 {
 }
 
 .balance {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
 }
