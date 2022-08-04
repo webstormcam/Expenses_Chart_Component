@@ -99,3 +99,9 @@ h2 {
     display: flex;
     flex-direction: column;
 }
+
+.day {
+    color: #92857A;
+    font-size: 0.8em;
+    font-family: 'DM Sans', sans-serif;
+}
