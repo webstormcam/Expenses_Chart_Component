@@ -88,3 +88,14 @@ h2 {
     font-size: 1.2em;
     font-family: 'DM Sans', sans-serif;
 }
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.week {
+    display: flex;
+    flex-direction: column;
+}
