@@ -93,6 +93,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .week {
