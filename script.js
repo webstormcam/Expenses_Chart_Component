@@ -6,6 +6,7 @@ fetch("data.json")
 .then(data => {
     
     for(let i=0;i<data.length;i++){
+        daysOfWeek[i].value=data[i].amount;
         daysOfWeek[i].style.height=`${data[i].amount}px`
         }
 
