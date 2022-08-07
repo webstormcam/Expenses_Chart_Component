@@ -114,6 +114,7 @@ h2 {
 .week {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .day {
@@ -133,4 +134,23 @@ h2 {
 .percent-last-month {
     position: relative;
     top: 1.5em;
+}
+
+.money {
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    top: -2em;
+    left: -0.4em;
+    background-color: #382314;
+    border-radius: 0.5em;
+}
+
+.money-text {
+    color: #fff;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8em;
+    padding-top: 0.4em;
+
 }
