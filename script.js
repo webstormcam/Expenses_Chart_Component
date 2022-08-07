@@ -2,6 +2,8 @@ let daysOfWeek = document.querySelectorAll('.stat')
 let moneyContainer = document.querySelector('.money')
 let moneyValue = document.querySelectorAll('.money-text')
 let current=0;
+let week = document.querySelectorAll('.week')
+console.log(week[0])
 
 fetch("data.json")
 .then(res => res.json())
@@ -32,5 +34,14 @@ fetch("data.json")
     
 });
 
-
+ daysOfWeek.forEach(item =>{
+    item.addEventListener('mouseover', event =>{
+   item.previousElementSibling.style.display='block'
+   
+    })
+    item.addEventListener('mouseout',event=>{
+        item.previousElementSibling.style.display='none'
+      
+    })
+})
 

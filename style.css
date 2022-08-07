@@ -146,7 +146,7 @@ h2 {
     left: -0.4em;
     background-color: #382314;
     border-radius: 0.5em;
-    display: block;
+    display: none;
 }
 
 .money-text {
