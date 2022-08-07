@@ -10,11 +10,11 @@ fetch("data.json")
     for(let i=0;i<data.length;i++){
         current=data[i].amount;
         daysOfWeek[i].style.height=`${data[i].amount*2.87}px`
-        daysOfWeek[i].style.backgroundColor='#76B5BC'
+        daysOfWeek[i].style.backgroundColor='rgba(118, 181, 188, 1)'
        
         for(let q=0;q<data.length;q++){
             if(current<data[q].amount){
-                daysOfWeek[i].style.backgroundColor='#EC755D'
+                daysOfWeek[i].style.backgroundColor='rgba(236, 117, 93, 1)'
                 
             }
         }
