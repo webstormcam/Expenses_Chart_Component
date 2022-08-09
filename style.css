@@ -163,3 +163,31 @@ h2 {
     opacity: 0.6;
 
 }
+
+
+@media screen and (min-width:768px) {
+    #myBalanceSection {
+
+        width: 540px;
+        padding: 1em 3em;
+
+    }
+
+    #spendingSection {
+        width: 540px;
+        padding: 1em 3em;
+
+    }
+
+    .stat {
+        width: 50.36px;
+
+
+    }
+
+    .money {
+        padding: 0em;
+    }
+
+    .money-text {}
+}
