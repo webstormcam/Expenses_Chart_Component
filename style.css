@@ -153,8 +153,9 @@ h2 {
     color: #fff;
     text-align: center;
     font-family: 'DM Sans', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding-top: 0.4em;
+    font-weight: bold;
 
 }
 
@@ -181,12 +182,23 @@ h2 {
 
     .stat {
         width: 50.36px;
+        overflow: auto;
 
 
     }
 
     .money {
-        padding: 0em;
+        padding: 0.9em;
+        width: fit-content;
+        left: -0.6em;
+        top: -2.5em;
+    }
+
+    .money-text {
+        font-size: 0.9em;
+        position: relative;
+        top: -0.8em;
+
     }
 
     .money-text {}
