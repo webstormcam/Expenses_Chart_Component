@@ -64,6 +64,7 @@ h2 {
     width: 343px;
     border-radius: 1em;
     padding: 1em 1.5em;
+    padding-bottom: 2em;
 }
 
 .months {
@@ -108,7 +109,7 @@ h2 {
 .stat {
     width: 33px;
 
-    border-radius: 0.2em;
+    border-radius: 0.5em;
 }
 
 
@@ -167,16 +168,32 @@ h2 {
 
 
 @media screen and (min-width:768px) {
+
+    h1 {
+        font-size: 1em;
+        margin-bottom: 0.7em;
+    }
+
+    .logo {
+        width: 72px;
+    }
+
+    .balance {
+        font-size: 2em;
+    }
+
     #myBalanceSection {
 
-        width: 540px;
-        padding: 1em 3em;
+        width: 500px;
+        padding: 1.5em 2em;
 
     }
 
     #spendingSection {
-        width: 540px;
-        padding: 1em 3em;
+        width: 500px;
+        padding: 1em 2em;
+        padding-bottom: 2.5em;
+
 
     }
 
@@ -201,5 +218,11 @@ h2 {
 
     }
 
-    .money-text {}
+    .thick-brown {
+        font-size: 2em;
+    }
+
+    .day {
+        font-size: 1em;
+    }
 }
